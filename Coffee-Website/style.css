@@ -101,8 +101,12 @@ footer nav a:hover{
 
 td,th{
 	border: 1px solid black;
+	width: 20%;
+	text-align:center;
+	padding: 5px;
 }
 
 table{
 	border-spacing: 0;
+	border-collapse: collapse;
 }
