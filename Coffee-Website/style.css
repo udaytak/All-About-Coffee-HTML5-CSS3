@@ -109,10 +109,14 @@ td,th{
 table{
 	border-spacing: 0;
 	border-collapse: collapse;
+	margin: 20px;
+}
+
+table caption{
+	margin-bottom: 10px;
 }
 
 video{
-	margin-bottom: 20px;
 	margin-left: 160px;
 	-wekit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
