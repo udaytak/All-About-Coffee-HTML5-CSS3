@@ -98,3 +98,11 @@ footer nav a:link, footer nav a:visited{
 footer nav a:hover{
 	color: black
 }
+
+td,th{
+	border: 1px solid black;
+}
+
+table{
+	border-spacing: 0;
+}
