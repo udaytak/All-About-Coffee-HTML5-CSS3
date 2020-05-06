@@ -16,54 +16,58 @@
 <fieldset>
 	<legend>Personal Information</legend>
 
-First Name:<input type="text" name="name">
+	First Name:<input type="text" name="name" autofocus required>
 
-<br/>
-Email:<input type="text" name="email" placeholder="Enter a valid email address">
+	<br/>
+	Email:<input type="email" name="email" placeholder="Enter a valid email address" required>
 </fieldset>
 
-<br/>
-Checkbox:
-<input type="Checkbox" name="check" value="ch1"> check 1
-<input type="Checkbox" name="check" value="ch2"> check 2
-<br/>
-Radio:
-<input type="radio" name="radio" value="rad1"> radio 1
-<input type="radio" name="radio" value="rad2"> radio 2
-<br/>
-Message:
-<textarea name="message">Your Message Here</textarea>
+	<br/>
+	Checkbox:
+	<input type="Checkbox" name="check" value="ch1"> check 1
+	<input type="Checkbox" name="check" value="ch2"> check 2
+	<br/>
+	Radio:
+	<input type="radio" name="radio" value="rad1"> radio 1
+	<input type="radio" name="radio" value="rad2"> radio 2
+	<br/>
+	Message:
+	<textarea name="message">Your Message Here</textarea>
 
-<br/>
-Dropdown:
-<select name="dropdown">
-<option value="o1"> Option 1 </option>
-<option value="o2"> Option 2 </option>
-<option value="o3"> Option 3 </option>
-<option value="o4"> Option 4 </option>
-<option value="o5"> Option 5 </option>
-</select>
-<br/>
-Password:
+	<br/>
+	Dropdown:
+	<select name="dropdown">
+	<option value="o1"> Option 1 </option>
+	<option value="o2"> Option 2 </option>
+	<option value="o3"> Option 3 </option>
+	<option value="o4"> Option 4 </option>
+	<option value="o5"> Option 5 </option>
+	</select>
+	<br/>
 
-<br/>
-Number: 
+	Password: <input type="Password" name="password">
+	<br/>
 
-<br/>
-Range: 
-1 10
-<br/>
-Date: 
+	Number: <input type="number" name="number">
+	<br/>
 
-<br/>
-Time: 
+	Range: 
+	1 <input type="range" name="range" min="1" max="10" value="8"> 10
+	<br/>
 
-<br/>
-Color: 
+	Date: 
+	<input type="date" name="date">
+	<br/>
+	
+	Time: 
+	<input type="time" name="time">
+	<br/>
 
+	Color: 
+	<input type="color" name="color">
+	<br/>
 
-<br/>
-<input type="submit" value="Send">
+	<input type="submit" value="Send">
 </form>
 
 </body>
