@@ -1,5 +1,7 @@
 body{
 	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0 auto;
+	width: 960px
 }
 
 h1, h2, h3{
@@ -22,17 +24,77 @@ a:hover{
 
 nav ul{
 	list-style-type: none;
+	padding: 0;
 }
 
 nav li{
 	display: inline;
+	float: left;
 }
 
 nav a:link, nav a:visited{
 	background-color: brown;
 	color: white;
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 10px 0;
 }
 
 nav a:hover{
 	background-color: black;
+}
+
+aside{
+	width: 280px;
+	float: right;
+	background-color: tan;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px;
+	margin-left: 20px
+}
+
+.photo-left{
+	float: left;
+	margin-right: 20px
+}
+
+.photo-right{
+	float: right;
+	margin-left: 20px;
+}
+
+header{
+	background-image: url("images/coffee-beans.jpg");
+	height: 95px;
+	margin-bottom: 50px;
+}
+
+header h1{
+	color: rgba(256,256,256,0.80);
+	margin-top: 30px;
+	margin-left:30px;
+	font-size: 50px;
+}
+
+footer{
+	margin: 40px 0;
+}
+
+footer nav{
+	float: right;
+}
+
+footer nav a:link, footer nav a:visited{
+	color: grey;
+	text-decoration: none;
+	display: block;
+	width: 160px;
+	text-align: center;
+	background-color: white;
+}
+
+footer nav a:hover{
+	color: black
 }
