@@ -25,30 +25,47 @@
 	</nav>
 	</header>
 
-	Coffee Survey
+	<h1>Coffee Survey</h1>
 
-	Your Name
+	<form action="coffee-survey.js" method="post">
 
-	Email Address
+		<fieldset>
+			<legend> Personal Information </legend>
+	
+			Your Name <input type="text" name="name" required>
 
-	Tell us your coffee preparation methods.
+			Email Address <input type="email" name="email" required placeholder="Enter a valid email address">
 
-	Do you grind your own beans?
-	yes
-	no
+		</fieldset>
 
-	How do you drink your coffee?
-	with sugar
-	with cream
+		<fieldset>
 
-	What is your favorite coffee drink?
+			<legend>Coffee Preferences:</legend>
 
-	please select a drink
-	drip coffee
-	french press
-	espresso
-	latte
-	flavored
+			Tell us your coffee preparation methods.
+			<textarea name="preparation"></textarea>
+
+			Do you grind your own beans?
+			<input type="radio" name="grind" value="yes">yes
+			<input type="radio" name="grind" value="no">no
+
+			How do you drink your coffee?
+			<input type="checkbox" name="drink" value="sugar">with sugar
+			<input type="checkbox" name="drink" value="cream"> with cream
+
+			What is your favorite coffee drink?
+
+			<select name="favorite">
+			<option value=""> please select a drink</option>
+			<option value="drip">drip coffee</option>
+			<option value="french">french press</option>
+			<option value="espresso">espresso</option>
+			<option value="latte">latte</option>
+			<option value="flavored">flavored</option>
+			</select>
+
+		</fieldset>
+	</form>
 
 	<footer>
 	<nav>
